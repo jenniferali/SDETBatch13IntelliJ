@@ -1,0 +1,112 @@
+How to change theme:
+    double click on the shift button twice inside the pop up type theme and hit enter.
+    After that you will see the options to change the theme.
+What is a method:
+    Method in java is block of code(group of java statements). It defines the behaviour
+    of a class.
+
+Why we should use methods:
+    1) it helps us remove the duplicate code from our application. We just create a method and
+    every time we need that logic we just call the method that contains the logic.
+    2) It also allows to write the code in the form of modules which makes the development of
+    large applications easier.
+
+How to use Methods:
+    1) First we create the method inside a class.
+    2) We create the object of that class
+    3) we call the method by writing the name of the object a dot name of the method
+
+class Calculator{
+
+void add(int x,int y){
+System.out.println(x+y);
+}
+
+public static void main(String [] args){
+Calculator calculator=new Calculator();
+calculator.add(10,20);
+}
+
+}
+Rules to create and use methods:
+void add(int x,int y){
+System.out.println(x+y);
+}
+void=> void is a return type and it is a must if you want to return a specific data write the name
+    of that data type like for int  we write int for String
+    we write String and if we don't want to return anything we write void
+    when we write a void we can't assign a method call to a variable
+add=>    next we write the name of the method which can be anything it should follow
+    the rules for giving a name to a variable
+()=>  We specify the parameters here we can pass any data type inside theese
+     parenthesis
+     They are optional we can leave them empty
+
+ {
+ System.out.println(x+y);
+ }
+ The Body of the method that contains the java statements
+
+  add(int x,int y) => This part with the name of the method and its parameters is
+  called signature of a method
+void add(int x,int y) header of the method
+_________________________________________________________________________________________
+Types of Variables in Java:
+There are three type variables in java: 1) Local    2) Instance     3)Static
+1. Local variable:
+ if a variable is inside a method or a part of its parameters or a loop
+or switch statement it is called a local variable.
+2. Instance variable:
+ if a variable is inside the class but outside of any block of code like method loop
+switch statement if else condition it is called an instance variable.
+3. Static Variables:
+ if an instance variable has a static keyword with it than it is called static variable.
+
+  WHY LEARN ABOUT DIFFERENT TYPES OF VARIABLES?
+1.IT HELPS US REDUCE THE AMOUNT OF "RAM"THAT OUR APPLICATIONS WILL BE USING WHEN IT WILL BE RUNNING.
+
+2. WITH THE HELP OF THESE VARIABLES WE CAN PASS THE INFORMATION BETWEEN METHODS OF CLASS.
+
+3.LOCAL VARIABLES OCCUPY THE MEMORY OR THE SHORTEST PERIOD OF TIME AS SOON AS YOUR METHOD
+IS DONE EXECUTING THEY ARE DESTROYED BY A SPECIAL PROGRAM CALLED GARBAGE COLLECTOR.
+
+ HOW TO USE THESE VARIABLES?
+Local : create inside block of code
+
+Advantages vs Disadvantages
+LOCAL VARIABLES:
+Advantages:
+    They occupy the memory for the shortest period of time,
+    so always try to use local variables when possible
+Disadvantages:
+    They are very limited in scope, which means we can't access them outside of method or that block of code.
+
+INSTANCE VARIABLES:
+Advantages:
+    They have broader scope as compared to local variables which means we can access them in all the
+    methods of that class.
+Disadvantages:
+    They occupy the space in your RAM for longer periods of time.
+
+STATIC VARIABLES:
+Advantages:
+    We can call static variables without creating an object of a class.
+    We can share a single value between all the objects of a class.
+
+
+
+
+
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

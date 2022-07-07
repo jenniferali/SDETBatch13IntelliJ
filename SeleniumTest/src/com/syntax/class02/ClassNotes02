@@ -1,0 +1,28 @@
+
+
+What is a WebElement?
+Anything we see on the web page is considered to be a web element!
+e.g. buttons, textboxes, checkboxes, links
+
+HTML... huh?
+Hyper Text Markup Language
+
+What is DOM?
+DOM stands for Document Object Model. It is the browser's internal
+view of the webpage. (AKA Developer's tools/Dev Tools)
+Document --> It's a simple HTML document which represents the page we are inspecting.
+Object --> Any line in HTML is considered to be an "object"
+Model --> It is just a layout of HTML
+
+Locators? Was dat?
+An address or a position of a "webelement" on the webpage.
+Used to locate or identify "weblements" on the webpage.
+
+8 Locators:
+-ID
+-Name
+-xpath
+-LinkText
+-PartialLinkText
+-CssSelectors
+-Classname

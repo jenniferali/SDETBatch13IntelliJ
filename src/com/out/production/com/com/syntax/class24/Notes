@@ -1,0 +1,49 @@
+What is polymorphism?
+   Polymorphism is the ability of a method to behave differently depending upon the
+   object or parameters that we pass to a method.
+   When we pass different parameters to a method and it behaves differently, then it
+   is called: Static Polymorphism or Compile Time Polymorphism or Early Binding.
+   When we achieve polymorphism through method overriding, then it is called
+   Dynamic Binding, Run Time Polymorphism, or Late Binding.
+
+Why should we use Polymorphism?
+    1) Cleaner code! :D
+    2) We never prefer to change the existing code if we want to improve something.
+        Best to create new methods and new classes. We can call these methods using
+        the parent classes variable/reference.
+    3) We can call multiple methods from many classes with the help of a single variable.
+        Like we can create the array of objects and with the help of a loop will
+        be able to call the methods from all the classes.
+
+How can we use Polymorphism?
+    1) Create a parent-child relationship.
+    2) Override the methods in the child classes.
+    3) Create the array of all the child class objects and with the help of loop,
+        you can call all the methods from all the child classes.
+
+Rules:
+    1) All the rules that apply to Overriding also apply to Polymorphism.
+    2) We can store the object of a child class inside a variable of type parent class,
+        but the reverse cannot be achieved.
+    3) We can also create arrays of type parent and they can hold the objects of
+        child classes.
+
+====================================================================================================
+
+What is Abstraction?
+    Abstraction is providing only the necessary details and hiding all the implementation
+    details.
+
+Why should we learn Abstraction?
+    1) It reduces code complexity by separating the idea from implementation.
+    2) It helps us enforce rules and convey our requirements.
+
+How can we use Abstraction?
+    1) Create classes with abstract keyword.
+    2) Use the abstract keyword with method header and don't provide the body of that method
+        inside the parent class.
+    3) Create the child classes and extend those classes from the parent class and implement the
+        abstract methods
+    4) If we don't want to provide the implementation of one or more methods, we can declare the child
+        class as abstract as well.
+    5)

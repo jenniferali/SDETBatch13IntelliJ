@@ -5,24 +5,24 @@ public class WebDriver {
         System.out.println("Starting the browser");
     }
     public void openUrl(String url){
-        System.out.println("Opening "+url);
+        System.out.println("opening "+url);
     }
     public void testLoginPage(){
-        System.out.println("Checking if login page is visible ");
+        System.out.println("checking if login page is visible ");
     }
     public void closeBrowser(){
-        System.out.println("Closing the browser");
+        System.out.println("closing the browser");
     }
 }
 class Chrome extends WebDriver{
     @Override
     public void startBrowser() {
-        System.out.println("Opening Google Chrome");
+        System.out.println("opening Google Chrome");
     }
 
     @Override
     public void openUrl(String url) {
-        System.out.println("Opening the URL "+url+" on Google Chrome");
+        System.out.println("opening the URL"+url+" on Google Chrome");
     }
 
     @Override
@@ -44,7 +44,7 @@ class FireFox extends WebDriver{
 
     @Override
     public void openUrl(String url) {
-        System.out.println("Opening the URL "+url+" on FireFox");
+        System.out.println("opening the URL"+url+" on FireFox");
     }
 
     @Override
@@ -54,7 +54,7 @@ class FireFox extends WebDriver{
 
     @Override
     public void closeBrowser() {
-        System.out.println("Closing the FireFox");
+        System.out.println("Closing the  FireFox");
     }
 }
 
@@ -67,7 +67,7 @@ class Safari extends WebDriver{
 
     @Override
     public void openUrl(String url) {
-        System.out.println("Opening the URL "+url+" on Safari");
+        System.out.println("opening the URL"+url+" on Safari");
     }
 
     @Override
@@ -77,7 +77,7 @@ class Safari extends WebDriver{
 
     @Override
     public void closeBrowser() {
-        System.out.println("Closing the Safari");
+        System.out.println("Closing the  Safari");
     }
 }
 
@@ -89,7 +89,7 @@ class Edge extends WebDriver{
 
     @Override
     public void openUrl(String url) {
-        System.out.println("Opening the URL "+url+" on Edge");
+        System.out.println("opening the URL"+url+" on Edge");
     }
 
     @Override
@@ -99,6 +99,6 @@ class Edge extends WebDriver{
 
     @Override
     public void closeBrowser() {
-        System.out.println("Closing the Edge");
+        System.out.println("Closing the  Edge");
     }
 }
